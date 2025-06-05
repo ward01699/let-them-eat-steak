@@ -6,28 +6,35 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header style="background-color: #c04c2b; padding: 2em; text-align: center;">
-        <img src="assets/logo.png" alt="Let Them Eat Steak Logo" style="max-height: 400px; width: auto; margin-bottom: 0.5em;">
-        <h1 style="color: white; margin: 0; font-size: 3em;">LET THEM EAT STEAK</h1>
-        <p style="color: white; font-style: italic; font-size: 1.5em; margin-top: 0.2em;">The Best Cuisine – Classic and Modern</p>
+    <header style="background-color: #c04c2b; text-align: center;">
+        <img src="assets/logo.png" alt="Let Them Eat Steak Logo" style="width: 100%; max-width: 800px;">
+        <h1 style="color: white;">LET THEM EAT STEAK</h1>
+        <p style="color: white;">The Best Cuisine – Classic and Modern</p>
     </header>
 
-    <nav style="background-color: #333; padding: 0.5em; text-align: center;">
-        <a href="index.html" style="color: white; margin: 0 1em; text-decoration: none;">Home</a>
-        <a href="about.html" style="color: white; margin: 0 1em; text-decoration: none;">About</a>
-        <a href="recipes.html" style="color: white; margin: 0 1em; text-decoration: none;">Recipes</a>
+    <nav style="background-color: #333; text-align: center; padding: 0.5em;">
+        <a href="index.html" style="color: white; margin: 0 1em;">Home</a>
+        <a href="about.html" style="color: white; margin: 0 1em;">About</a>
+        <a href="recipes.html" style="color: white; margin: 0 1em;">Recipes</a>
     </nav>
 
-    <main style="max-width: 800px; margin: 2em auto;">
-        <section class="intro">
-            <p>Welcome to the kitchen where bold flavors, wild ideas, and a little snark come together on one plate. Browse our growing collection of recipes, from perfectly grilled steaks to buttery sourdough loaves and everything in between.</p>
-        </section>
-        <section class="recipes">
-            <h2>Featured Recipes</h2>
-            <ul>
-                <li><a href="recipes/smoked_gouda_mac.html">Gouda Mac and Cheese</a></li>
-                <li><a href="recipes/roasted_garlic_sourdough.html">Roasted Garlic Sourdough Loaf</a></li>
-            </ul>
+    <main style="max-width: 900px; margin: 2em auto; font-family: sans-serif;">
+        <h2 style="text-align: center;">Featured Recipes</h2>
+        <section style="display: flex; flex-wrap: wrap; justify-content: center; gap: 2em; margin-top: 2em;">
+            <div style="width: 300px; border: 1px solid #ccc; border-radius: 8px; overflow: hidden;">
+                <a href="recipes/smoked_gouda_mac.html"><img src="assets/mac.jpg" alt="Gouda Mac and Cheese" style="width: 100%;"></a>
+                <div style="padding: 1em;">
+                    <h3><a href="recipes/smoked_gouda_mac.html">Gouda Mac and Cheese</a></h3>
+                    <p>Rich, smoky, creamy, and perfectly indulgent.</p>
+                </div>
+            </div>
+            <div style="width: 300px; border: 1px solid #ccc; border-radius: 8px; overflow: hidden;">
+                <a href="recipes/corn_tortilla.html"><img src="assets/tortilla.jpg" alt="Corn Tortillas" style="width: 100%;"></a>
+                <div style="padding: 1em;">
+                    <h3><a href="recipes/corn_tortilla.html">Homemade Corn Tortillas</a></h3>
+                    <p>Authentic, warm, and perfect for any taco night.</p>
+                </div>
+            </div>
         </section>
     </main>
 
