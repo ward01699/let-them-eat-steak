@@ -27,6 +27,20 @@
             <p><strong>Thanks for stopping by. I hope you leave hungry.</strong></p>
             <p><strong>– Lena</strong></p>
         </section>
+
+        <section style="margin-top: 3em;">
+            <h2>Leave a Comment</h2>
+            <p>Please say hi, I love to share cooking stories over a glass of Tempranillo.</p>
+            <form style="display: flex; flex-direction: column;" name="comment-form" netlify>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required style="margin-bottom: 1em; padding: 0.5em;">
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required style="margin-bottom: 1em; padding: 0.5em;"></textarea>
+
+                <button type="submit" style="background-color: #c04c2b; color: white; border: none; padding: 0.7em;">Submit</button>
+            </form>
+        </section>
     </main>
 
     <footer style="text-align: center; padding: 2em; color: #555;">
